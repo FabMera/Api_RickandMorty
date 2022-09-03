@@ -2,3 +2,9 @@
 body{
     background-color: rgb(88, 138, 195);
 }
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}

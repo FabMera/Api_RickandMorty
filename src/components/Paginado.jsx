@@ -1,7 +1,6 @@
 import React from "react";
 
 const Paginado = ({ prev, next, previo, Siguiente }) => {
-    
   const handlePrevPage = () => {
     previo();
   };
