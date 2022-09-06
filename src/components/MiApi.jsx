@@ -34,6 +34,8 @@ export const MiApi = () => {
   };
 
   //----------Funciones para paginado "siguiente y anterior"------------//
+  //PASAMOS como argumento a la funcion asincrona (axios),showData(endpoint)
+  // la url que no da la api para obtener la pagina siguiente o anterior
   const previo = () => {
     showData(info.prev);
   };
