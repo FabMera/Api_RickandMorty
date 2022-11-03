@@ -104,8 +104,14 @@ export const MiApi = () => {
     <>
       <NavBar title="Rick and Morty" />
       <div className="container mt-4 d-flex flex-row justify-content-around ">
-        <Selector select={select} handleSelect={handleSelect} />
-        <Buscador search={search} handleInput={handleInput} />
+        <div className="row">
+          <div className="col-12 col-md-6 mb-3">
+            <Selector select={select} handleSelect={handleSelect} />
+          </div>
+          <div className="col-12 col-md-6 mb-3">
+            <Buscador search={search} handleInput={handleInput} />
+          </div>
+        </div>
       </div>
       <nav>
         <Paginado
@@ -124,7 +130,7 @@ export const MiApi = () => {
             {busqueda.map((item, index) => (
               <div
                 key={index}
-                className="col-3 mb-4"
+                className="col-6 mb-4"
                 style={{ maxWidth: "18rem" }}
               >
                 <div className="card border-info">

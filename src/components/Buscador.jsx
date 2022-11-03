@@ -2,7 +2,7 @@ import React from "react";
 
 const Buscador = ({ search, handleInput }) => {
   return (
-    <form className="d-flex">
+    <form className="d-flex mb-3">
       <input
         value={search}
         onChange={handleInput}

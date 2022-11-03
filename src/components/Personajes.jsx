@@ -6,7 +6,7 @@ const Personajes = ({ characters = [] }) => {
   return (
     <div className="row justify-content-center">
       {characters.map((item, index) => (
-        <div key={index} className="col mb-4" style={{ maxWidth: "18rem" }}>
+        <div key={index} className="col mb-4" style={{ maxWidth: "75%" }}>
           <div className="card border-info">
             {item.status === "Alive" ? (
               <span className="badge bg-success">{item.status}</span>
