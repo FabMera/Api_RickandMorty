@@ -130,7 +130,7 @@ export const MiApi = () => {
             {busqueda.map((item, index) => (
               <div
                 key={index}
-                className="col-6 mb-4"
+                className="col-4 mb-4"
                 style={{ maxWidth: "18rem" }}
               >
                 <div className="card border-info">
