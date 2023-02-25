@@ -1,2 +1,1 @@
-link al video en youtube:
-https://www.youtube.com/watch?v=0uWjLf-p5wQ
+SPA muestra los componentes CARDS con una consulta a la API de RICK AND MORTY contiene paginado y busqueda,ordenamiento de personajes.
